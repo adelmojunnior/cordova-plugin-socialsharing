@@ -775,7 +775,7 @@ static NSString *const kShareOptionUrl = @"url";
 
 -(NSString*) storeInFile: (NSString*) fileName
                 fileData: (NSData*) fileData {
-  NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+  NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
   NSString *documentsDirectory = [paths objectAtIndex:0];
   NSString *filePath = [documentsDirectory stringByAppendingPathComponent:fileName];
   [fileData writeToFile:filePath atomically:YES];
