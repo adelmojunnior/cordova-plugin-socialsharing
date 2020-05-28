@@ -5,10 +5,10 @@
 [![TotalDownloads][total-downloads-image]][npm-url]
 [![Twitter Follow][twitter-image]][twitter-url]
 
-[npm-image]:http://img.shields.io/npm/v/cordova-plugin-x-socialsharing.svg
-[npm-url]:https://npmjs.org/package/cordova-plugin-x-socialsharing
-[downloads-image]:http://img.shields.io/npm/dm/cordova-plugin-x-socialsharing.svg
-[total-downloads-image]:http://img.shields.io/npm/dt/cordova-plugin-x-socialsharing.svg?label=total%20downloads
+[npm-image]:http://img.shields.io/npm/v/cordova-plugin-socialsharing.svg
+[npm-url]:https://npmjs.org/package/cordova-plugin-socialsharing
+[downloads-image]:http://img.shields.io/npm/dm/cordova-plugin-socialsharing.svg
+[total-downloads-image]:http://img.shields.io/npm/dt/cordova-plugin-socialsharing.svg?label=total%20downloads
 [twitter-image]:https://img.shields.io/twitter/follow/eddyverbruggen.svg?style=social&label=Follow%20me
 [twitter-url]:https://twitter.com/eddyverbruggen
 
@@ -78,7 +78,7 @@ $ phonegap local plugin add https://github.com/EddyVerbruggen/SocialSharing-Phon
 
 or with Cordova CLI, from npm:
 ```
-$ cordova plugin add cordova-plugin-x-socialsharing
+$ cordova plugin add cordova-plugin-socialsharing
 $ cordova prepare
 ```
 
@@ -129,7 +129,7 @@ Window Phone: Copy `SocialSharing.cs` to `platforms/wp8/Plugins/nl.x-services.pl
 ### PhoneGap Build
 Just add the following xml to your `config.xml` to always use the latest version of this plugin (which is published to plugins.cordova.io these days):
 ```xml
-<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+<gap:plugin name="cordova-plugin-socialsharing" source="npm" />
 ```
 or to use an older version, hosted at phonegap build:
 ```xml
@@ -550,5 +550,5 @@ This plugin requires permissions to the users photos. Since iOS 10 it is require
 The plugin configures a default description for you. If you do need to customise it, you can set a Cordova variable when installing:
 
 ```
-$ cordova plugin add cordova-plugin-x-socialsharing --variable PHOTO_LIBRARY_USAGE_DESCRIPTION="This app uses your photo library" --variable PHOTO_LIBRARY_ADD_USAGE_DESCRIPTION="This app saves images your photo library"
+$ cordova plugin add cordova-plugin-socialsharing --variable PHOTO_LIBRARY_USAGE_DESCRIPTION="This app uses your photo library" --variable PHOTO_LIBRARY_ADD_USAGE_DESCRIPTION="This app saves images your photo library"
 ```

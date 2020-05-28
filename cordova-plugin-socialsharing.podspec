@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint cordova-plugin-x-socialsharing.podspec' to ensure this is a
+# Be sure to run `pod lib lint cordova-plugin-socialsharing.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'cordova-plugin-x-socialsharing'
-  s.version          = '5.4.6'
-  s.summary          = 'A short description of cordova-plugin-x-socialsharing.'
+  s.name             = 'cordova-plugin-socialsharing'
+  s.version          = '6.0.0'
+  s.summary          = 'A short description of cordova-plugin-socialsharing.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = "src/ios/*.{h,m}"
   
   # s.resource_bundles = {
-  #   'cordova-plugin-x-socialsharing' => ['cordova-plugin-x-socialsharing/Assets/*.png']
+  #   'cordova-plugin-socialsharing' => ['cordova-plugin-socialsharing/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
